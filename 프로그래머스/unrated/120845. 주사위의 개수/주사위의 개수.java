@@ -3,7 +3,7 @@ class Solution {
         int answer = 1;
         
         for(int i = 0; i < box.length; i++){
-            answer = answer * (box[i] / n);
+            answer *= box[i] / n;
         }
         
         return answer;
